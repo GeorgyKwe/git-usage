@@ -17,7 +17,7 @@ sudo git config --global user.email "zkzhaoo@qq.com"
 
 ## 设置 SSH Key
 
-在 Ubuntu 终端运行如下命令，可生成 SSH Key，若已有 Key，则无需再次生成。
+在 Ubuntu 终端运行如下命令，可生成 SSH Key，若已有 Key，则无需再次生成
 
 ```bash
 ssh-keygen -t rsa      #该命令敲完后，一路回车即可得到如下信息
