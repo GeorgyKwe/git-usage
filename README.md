@@ -64,6 +64,7 @@ git clone git@github.com:GeorgyKwe/git-usage.git
 ```bash
 git branch --set-upstream-to=origin/main
 ```
+<<<<<<< HEAD
 
 ### Push
 
@@ -74,3 +75,5 @@ git add 文件名
 git commit -m "修改内容"
 git push origin main
 ```
+=======
+>>>>>>> 9646d1b7c531094ff52834699b26364584d8f6fc
