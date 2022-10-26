@@ -1,4 +1,4 @@
-# git usage
+# Git Usage
 
 Installation and configuration of git in ubuntu and code pulling and uploading
 
@@ -45,7 +45,7 @@ ssh -T git@github.com
 
 ## 设置 Github
 
-打开 [Github](https://github.com/) 并成功登陆后，点击自己的账户名->Settings->New SSH Key，将刚刚复制的 pubkey 内容粘贴到下图位置中，然后点击 “ADD SSH KEY” 保存即可
+打开 [Github](https://github.com/) 并成功登陆后，点击自己的账户名->Settings->New SSH Key，将刚刚复制的 pubkey 内容粘贴到下图位置中，然后点击“ADD SSH KEY”保存即可
 
 ## Git 使用
 
