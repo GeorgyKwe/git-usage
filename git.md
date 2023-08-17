@@ -13,6 +13,13 @@ git rebase -i "commit_id"
 
 > [参考：删除commit三种方法](https://blog.csdn.net/qq_34977392/article/details/110817621)
 
+若在其他节点更新仓库，则需要退回至待删除 commit 上一个位置节点，并执行下列命令。
+
+```bash
+git reset --hard "commit_id"
+git pull
+```
+
 ### Remote-ssh 免密登录
 
 ```bash
