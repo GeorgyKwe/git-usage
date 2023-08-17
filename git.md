@@ -16,9 +16,9 @@ git rebase -i "commit_id"
 ### Remote-ssh 免密登录
 
 ```bash
-ssh-copy-id 10.100.192.93
-ssh-copy-id hello@ip
-ssh cri@10.100.192.92
+ssh-copy-id vscode.com
+ssh-copy-id hello@vscode.com
+ssh hello@vscode.com
 ```
 
 > [参考：VSCode配置SSH免密登录](https://juejin.cn/post/7023042621295558692)
