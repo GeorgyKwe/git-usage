@@ -21,4 +21,13 @@ ssh-copy-id hello@vscode.com
 ssh hello@vscode.com
 ```
 
+`config 文件配置项`
+
+```bash
+Host DomainName
+  HostName vscode.com
+  User hello
+  IdentityFile ~/.ssh/id_rsa
+```
+
 > [参考：VSCode配置SSH免密登录](https://juejin.cn/post/7023042621295558692)
